@@ -1147,6 +1147,16 @@
             "rid": "win"
           }
         }
+      },
+      "SIMS.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SIMS.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SIMS.Models.dll": {}
+        }
       }
     }
   },
@@ -3307,12 +3317,18 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "SIMS.Models/1.0.0": {
+      "type": "project",
+      "path": "../SIMS.Models/SIMS.Models.csproj",
+      "msbuildProject": "../SIMS.Models/SIMS.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.11",
+      "SIMS.Models >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -3322,11 +3338,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Major Project\\SIMS.API\\SIMS.API\\SIMS.API.csproj",
+      "projectUniqueName": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.API\\SIMS.API.csproj",
       "projectName": "SIMS.API",
-      "projectPath": "D:\\Major Project\\SIMS.API\\SIMS.API\\SIMS.API.csproj",
+      "projectPath": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.API\\SIMS.API.csproj",
       "packagesPath": "C:\\Users\\karna\\.nuget\\packages\\",
-      "outputPath": "D:\\Major Project\\SIMS.API\\SIMS.API\\obj\\",
+      "outputPath": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\karna\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3342,7 +3358,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj": {
+              "projectPath": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

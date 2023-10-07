@@ -7,5 +7,6 @@
         public string ImageURL { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }
+        public int Dept_Id { get; set; }
     }
 }

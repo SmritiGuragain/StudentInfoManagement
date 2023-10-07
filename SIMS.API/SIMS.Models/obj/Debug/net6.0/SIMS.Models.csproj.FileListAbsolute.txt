@@ -1,0 +1,11 @@
+D:\Major Project\StudentInfoManagement\SIMS.API\SIMS.Models\bin\Debug\net6.0\SIMS.Models.deps.json
+D:\Major Project\StudentInfoManagement\SIMS.API\SIMS.Models\bin\Debug\net6.0\SIMS.Models.dll
+D:\Major Project\StudentInfoManagement\SIMS.API\SIMS.Models\bin\Debug\net6.0\SIMS.Models.pdb
+D:\Major Project\StudentInfoManagement\SIMS.API\SIMS.Models\obj\Debug\net6.0\SIMS.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Major Project\StudentInfoManagement\SIMS.API\SIMS.Models\obj\Debug\net6.0\SIMS.Models.AssemblyInfoInputs.cache
+D:\Major Project\StudentInfoManagement\SIMS.API\SIMS.Models\obj\Debug\net6.0\SIMS.Models.AssemblyInfo.cs
+D:\Major Project\StudentInfoManagement\SIMS.API\SIMS.Models\obj\Debug\net6.0\SIMS.Models.csproj.CoreCompileInputs.cache
+D:\Major Project\StudentInfoManagement\SIMS.API\SIMS.Models\obj\Debug\net6.0\SIMS.Models.dll
+D:\Major Project\StudentInfoManagement\SIMS.API\SIMS.Models\obj\Debug\net6.0\refint\SIMS.Models.dll
+D:\Major Project\StudentInfoManagement\SIMS.API\SIMS.Models\obj\Debug\net6.0\SIMS.Models.pdb
+D:\Major Project\StudentInfoManagement\SIMS.API\SIMS.Models\obj\Debug\net6.0\ref\SIMS.Models.dll

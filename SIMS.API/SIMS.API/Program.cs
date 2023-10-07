@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using SIMS.API.Data;
+using SIMS.API.Repositories;
+using SIMS.API.Repositories.Contracts;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +15,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContextPool<StudentDbContext>(Options =>
     Options.UseSqlServer(builder.Configuration.GetConnectionString("Studentinfo"))
 );
+
+builder.Services.AddScoped<IHodRepositories, HodRepositories>();
 
 var app = builder.Build();
 

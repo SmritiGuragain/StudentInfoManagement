@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Major Project\\SIMS.API\\SIMS.API\\SIMS.API.csproj": {}
+    "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.API\\SIMS.API.csproj": {}
   },
   "projects": {
-    "D:\\Major Project\\SIMS.API\\SIMS.API\\SIMS.API.csproj": {
+    "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.API\\SIMS.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Major Project\\SIMS.API\\SIMS.API\\SIMS.API.csproj",
+        "projectUniqueName": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.API\\SIMS.API.csproj",
         "projectName": "SIMS.API",
-        "projectPath": "D:\\Major Project\\SIMS.API\\SIMS.API\\SIMS.API.csproj",
+        "projectPath": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.API\\SIMS.API.csproj",
         "packagesPath": "C:\\Users\\karna\\.nuget\\packages\\",
-        "outputPath": "D:\\Major Project\\SIMS.API\\SIMS.API\\obj\\",
+        "outputPath": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\karna\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,7 +27,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj": {
+                "projectPath": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -70,6 +74,61 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj",
+        "projectName": "SIMS.Models",
+        "projectPath": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj",
+        "packagesPath": "C:\\Users\\karna\\.nuget\\packages\\",
+        "outputPath": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\karna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

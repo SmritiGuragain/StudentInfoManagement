@@ -11,8 +11,8 @@ using SIMS.API.Data;
 namespace SIMS.API.Migrations
 {
     [DbContext(typeof(StudentDbContext))]
-    [Migration("20231006070908_Initial_Commit")]
-    partial class Initial_Commit
+    [Migration("20231007085440_Initial-commit")]
+    partial class Initialcommit
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,6 +35,9 @@ namespace SIMS.API.Migrations
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Fac_Id")
+                        .HasColumnType("int");
 
                     b.Property<string>("ImageURL")
                         .IsRequired()
@@ -61,9 +64,6 @@ namespace SIMS.API.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Hod_Id")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -80,9 +80,6 @@ namespace SIMS.API.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("Cdr_Id")
-                        .HasColumnType("int");
 
                     b.Property<int>("Dep_Id")
                         .HasColumnType("int");
@@ -103,6 +100,9 @@ namespace SIMS.API.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Dept_Id")
+                        .HasColumnType("int");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -192,8 +192,9 @@ namespace SIMS.API.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Phone")
-                        .HasColumnType("int");
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Sem_Id")
                         .HasColumnType("int");
