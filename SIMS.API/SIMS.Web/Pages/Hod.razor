@@ -1,0 +1,35 @@
+﻿@page "/"
+@inherits HodBase
+
+@if(Hods == null)
+{
+    <h3>Loading Hods........</h3>
+}
+else
+{
+    <h3 class="mb-5">List Of Hod</h3>
+    <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">#Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Phone</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Dept_Name</th>
+                </tr>
+            </thead>
+            @foreach(var items in Hods)
+            {
+            <tbody>
+                <tr>
+                    <th scope="row">@items.Id</th>
+                    <td>@items.Name</td>
+                    <td>@items.Phone</td>
+                    <td>@items.Email</td>
+                    <td>@items.Dept_Name</td>
+                </tr>
+            </tbody>
+            }
+     </table>
+    
+}

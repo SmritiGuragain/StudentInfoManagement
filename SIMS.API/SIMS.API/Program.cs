@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Net.Http.Headers;
 using SIMS.API.Data;
 using SIMS.API.Repositories;
 using SIMS.API.Repositories.Contracts;
@@ -26,7 +27,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseCors(policy =>
+policy.WithOrigins("http://localhost:7253", "https://localhost:7253")
+.AllowAnyMethod()
+.WithHeaders(HeaderNames.ContentType)
+);
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
