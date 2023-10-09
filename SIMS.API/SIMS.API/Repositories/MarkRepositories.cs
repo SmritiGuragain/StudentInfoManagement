@@ -13,6 +13,13 @@ namespace SIMS.API.Repositories
             this.studentDbContext = studentDbContext;
             
         }
+
+        public async Task<IEnumerable<Faculty>> GetFaculties()
+        {
+            var faculties = await this.studentDbContext.Faculties.ToListAsync();
+            return faculties;
+        }
+
         public Task<IEnumerable<Mark>> GetMark(int id)
         {
             throw new NotImplementedException();

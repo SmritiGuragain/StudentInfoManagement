@@ -117,7 +117,8 @@ namespace SIMS.API.Extensions
         public static IEnumerable<MarkDto> ConvertToDto(this IEnumerable<Mark> marks,
            IEnumerable<Student> students,
            IEnumerable<Semester> semesters,
-           IEnumerable<Subject> subjects)
+           IEnumerable<Subject> subjects,
+           IEnumerable<Faculty> faculties)
         {
             return (from mark in marks
                     join student in students
@@ -126,6 +127,8 @@ namespace SIMS.API.Extensions
                     on mark.Sub_Id equals subject.Id
                     join semester in semesters
                     on subject.Sem_Id equals semester.Id
+                    join faculty in faculties
+                    on  semester.Fac_Id equals faculty.Id
 
 
                     select new MarkDto
@@ -137,6 +140,8 @@ namespace SIMS.API.Extensions
                         Sem_Name = semester.Name,
                         Sub_Id = mark.Sub_Id,
                         Sub_Name = subject.Name,
+                        Fac_Id = semester.Fac_Id,
+                        Fac_Name = faculty.Name,
                         Score = mark.Score,
                     }).ToList();
         }

@@ -13,6 +13,8 @@ namespace SIMS.Models.Dtos
         public string Std_Name { get; set; }
         public int Sem_Id {  get; set; }
         public string Sem_Name { get; set; }
+        public int Fac_Id { get; set; }
+        public string Fac_Name { get; set; }
         public string Sub_Id { get; set; }
         public string Sub_Name { get; set; }
         public double Score { get; set; }

@@ -17,22 +17,23 @@ namespace SIMS.API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<SubjectDto>>> GetSubjects()
+        public async Task<ActionResult<IEnumerable<MarkDto>>> GetMarks()
         {
             try
             {
+                var faculties = await this.markRepositories.GetFaculties();
                 var students = await this.markRepositories.GetStudents();
                 var semesters = await this.markRepositories.GetSemesters();
                 var subjects = await this.markRepositories.GetSubjects();
                 var marks = await this.markRepositories.GetMarks();
 
-                if (students == null || semesters == null || subjects == null || marks==null)
+                if (students == null || semesters == null || subjects == null || marks==null || faculties==null)
                 {
                     return NotFound();
                 }
                 else
                 {
-                    var markDto = marks.ConvertToDto(students,semesters, subjects);
+                    var markDto = marks.ConvertToDto(students,semesters, subjects,faculties);
                     return Ok(markDto);
                 }
 

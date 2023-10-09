@@ -8,6 +8,7 @@ namespace SIMS.API.Repositories.Contracts
         Task<IEnumerable<Semester>> GetSemesters();
         Task<IEnumerable<Subject>> GetSubjects();
         Task<IEnumerable<Mark>> GetMarks();
+        Task<IEnumerable<Faculty>> GetFaculties();
 
         Task<IEnumerable<Student>> GetStudent(int id);
         Task<IEnumerable<Semester>> GetSemester(int id);
