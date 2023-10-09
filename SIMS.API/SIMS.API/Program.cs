@@ -18,6 +18,8 @@ builder.Services.AddDbContextPool<StudentDbContext>(Options =>
 );
 
 builder.Services.AddScoped<IHodRepositories, HodRepositories>();
+builder.Services.AddScoped<ICoordinatorRepositories,CoordinatorRepositories>();
+builder.Services.AddScoped<IFacultyRepositories, FacultyRepositories>();
 
 var app = builder.Build();
 

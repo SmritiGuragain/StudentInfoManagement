@@ -9,3 +9,14 @@ D:\Major Project\StudentInfoManagement\SIMS.API\SIMS.Models\obj\Debug\net6.0\SIM
 D:\Major Project\StudentInfoManagement\SIMS.API\SIMS.Models\obj\Debug\net6.0\refint\SIMS.Models.dll
 D:\Major Project\StudentInfoManagement\SIMS.API\SIMS.Models\obj\Debug\net6.0\SIMS.Models.pdb
 D:\Major Project\StudentInfoManagement\SIMS.API\SIMS.Models\obj\Debug\net6.0\ref\SIMS.Models.dll
+C:\Users\shivs\Documents\GitHub\StudentInfoManagement\SIMS.API\SIMS.Models\bin\Debug\net6.0\SIMS.Models.deps.json
+C:\Users\shivs\Documents\GitHub\StudentInfoManagement\SIMS.API\SIMS.Models\bin\Debug\net6.0\SIMS.Models.dll
+C:\Users\shivs\Documents\GitHub\StudentInfoManagement\SIMS.API\SIMS.Models\bin\Debug\net6.0\SIMS.Models.pdb
+C:\Users\shivs\Documents\GitHub\StudentInfoManagement\SIMS.API\SIMS.Models\obj\Debug\net6.0\SIMS.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shivs\Documents\GitHub\StudentInfoManagement\SIMS.API\SIMS.Models\obj\Debug\net6.0\SIMS.Models.AssemblyInfoInputs.cache
+C:\Users\shivs\Documents\GitHub\StudentInfoManagement\SIMS.API\SIMS.Models\obj\Debug\net6.0\SIMS.Models.AssemblyInfo.cs
+C:\Users\shivs\Documents\GitHub\StudentInfoManagement\SIMS.API\SIMS.Models\obj\Debug\net6.0\SIMS.Models.csproj.CoreCompileInputs.cache
+C:\Users\shivs\Documents\GitHub\StudentInfoManagement\SIMS.API\SIMS.Models\obj\Debug\net6.0\SIMS.Models.dll
+C:\Users\shivs\Documents\GitHub\StudentInfoManagement\SIMS.API\SIMS.Models\obj\Debug\net6.0\refint\SIMS.Models.dll
+C:\Users\shivs\Documents\GitHub\StudentInfoManagement\SIMS.API\SIMS.Models\obj\Debug\net6.0\SIMS.Models.pdb
+C:\Users\shivs\Documents\GitHub\StudentInfoManagement\SIMS.API\SIMS.Models\obj\Debug\net6.0\ref\SIMS.Models.dll

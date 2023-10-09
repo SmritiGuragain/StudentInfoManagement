@@ -1788,19 +1788,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\karna\\.nuget\\packages\\": {}
+    "C:\\Users\\shivs\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Web\\SIMS.Web.csproj",
+      "projectUniqueName": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Web\\SIMS.Web.csproj",
       "projectName": "SIMS.Web",
-      "projectPath": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Web\\SIMS.Web.csproj",
-      "packagesPath": "C:\\Users\\karna\\.nuget\\packages\\",
-      "outputPath": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Web\\obj\\",
+      "projectPath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Web\\SIMS.Web.csproj",
+      "packagesPath": "C:\\Users\\shivs\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\karna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shivs\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1814,8 +1814,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj": {
-              "projectPath": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj"
+            "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj": {
+              "projectPath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj"
             }
           }
         }
@@ -1851,18 +1851,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[6.0.21, 6.0.21]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
