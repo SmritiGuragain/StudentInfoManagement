@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xcATZzCsk0JCWC4VmX1dwjA9zrkEhkuz+o9NxeA/HCiWAjhEjetWoQXmIc1e8AxABODEaiuZoCW60bO/SHWhyw==",
+  "dgSpecHash": "6SsR6X7T7g3auLrhTQMjTDuQq8UknOYMl5cCoqGyuEi9ZMycCQrKfDxbWwt61bvcaSBdP58APTQ6s0wN9g/MRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Web\\SIMS.Web.csproj",
+  "projectFilePath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfo\\SIMS.API\\SIMS.Web\\SIMS.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shivs\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.20\\microsoft.aspnetcore.authorization.6.0.20.nupkg.sha512",
     "C:\\Users\\shivs\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.20\\microsoft.aspnetcore.components.6.0.20.nupkg.sha512",

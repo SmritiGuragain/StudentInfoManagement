@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj",
+      "projectUniqueName": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfo\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj",
       "projectName": "SIMS.Models",
-      "projectPath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj",
+      "projectPath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfo\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj",
       "packagesPath": "C:\\Users\\shivs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\obj\\",
+      "outputPath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfo\\SIMS.API\\SIMS.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shivs\\AppData\\Roaming\\NuGet\\NuGet.Config",
