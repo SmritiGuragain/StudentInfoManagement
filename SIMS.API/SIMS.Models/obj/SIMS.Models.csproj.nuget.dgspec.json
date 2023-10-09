@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj": {}
+    "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj": {}
   },
   "projects": {
-    "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj": {
+    "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj",
+        "projectUniqueName": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj",
         "projectName": "SIMS.Models",
-        "projectPath": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj",
-        "packagesPath": "C:\\Users\\karna\\.nuget\\packages\\",
-        "outputPath": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\obj\\",
+        "projectPath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj",
+        "packagesPath": "C:\\Users\\shivs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shivs\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
