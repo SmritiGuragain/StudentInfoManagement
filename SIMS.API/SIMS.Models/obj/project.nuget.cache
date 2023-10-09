@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DIfro5ewCalhtMbUkerbfi88cTnZC0iic8+h5M7kzlW4GHdj3zOBtvekgf6CUcV+1GRzxnrcBG0uDTVXi4cEZw==",
+  "dgSpecHash": "kXmqZiCg54kjFJavNdSbqBPF4jz5Difkg0KBgBMeDSB4bM441dTTEvyEt+HwcWfU0HKct3Kewpo6erB17nCGqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj",
+  "projectFilePath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfo\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

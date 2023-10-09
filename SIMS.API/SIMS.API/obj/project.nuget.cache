@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PN+emzxw1p6fwSqyz+5viRmBaBrHqdzubBT2VZigeKUalrUwz5A7mk5822uBNY4CnlVRY6jpwJTV/EKwYwkvZQ==",
+  "dgSpecHash": "vZGxctHh2+X17kFhr+3iNW2KBjONfqsrGH5uwmzqdYNBsMYH5dwWFwgouUM5ONRw6VAjhA6bv2+bNphjJ9dc4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.API\\SIMS.API.csproj",
+  "projectFilePath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfo\\SIMS.API\\SIMS.API\\SIMS.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shivs\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\shivs\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

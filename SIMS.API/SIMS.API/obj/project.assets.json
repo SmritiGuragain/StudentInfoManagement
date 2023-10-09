@@ -3338,11 +3338,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.API\\SIMS.API.csproj",
+      "projectUniqueName": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfo\\SIMS.API\\SIMS.API\\SIMS.API.csproj",
       "projectName": "SIMS.API",
-      "projectPath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.API\\SIMS.API.csproj",
+      "projectPath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfo\\SIMS.API\\SIMS.API\\SIMS.API.csproj",
       "packagesPath": "C:\\Users\\shivs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.API\\obj\\",
+      "outputPath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfo\\SIMS.API\\SIMS.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shivs\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3359,8 +3359,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj": {
-              "projectPath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj"
+            "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfo\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj": {
+              "projectPath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfo\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj"
             }
           }
         }
