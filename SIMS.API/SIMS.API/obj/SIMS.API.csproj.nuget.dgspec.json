@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.API\\SIMS.API.csproj": {}
+    "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.API\\SIMS.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.API\\SIMS.API.csproj": {
+    "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.API\\SIMS.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.API\\SIMS.API.csproj",
+        "projectUniqueName": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.API\\SIMS.API.csproj",
         "projectName": "SIMS.API",
-        "projectPath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.API\\SIMS.API.csproj",
-        "packagesPath": "C:\\Users\\shivs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.API\\obj\\",
+        "projectPath": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.API\\SIMS.API.csproj",
+        "packagesPath": "C:\\Users\\karna\\.nuget\\packages\\",
+        "outputPath": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shivs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\karna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj": {
-                "projectPath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj"
+              "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj": {
+                "projectPath": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj"
               }
             }
           }
@@ -78,21 +78,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj": {
+    "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj",
+        "projectUniqueName": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj",
         "projectName": "SIMS.Models",
-        "projectPath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj",
-        "packagesPath": "C:\\Users\\shivs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shivs\\Documents\\GitHub\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\obj\\",
+        "projectPath": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\SIMS.Models.csproj",
+        "packagesPath": "C:\\Users\\karna\\.nuget\\packages\\",
+        "outputPath": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shivs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\karna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -133,7 +133,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

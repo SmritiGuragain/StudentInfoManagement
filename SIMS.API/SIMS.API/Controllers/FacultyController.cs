@@ -21,7 +21,7 @@ namespace SIMS.API.Controllers
             try
             {
                 var faculties = await this.facultyRepositories.GetFaculties();
-                var departments=await this.facultyRepositories.GetDepartments();
+                var departments = await this.facultyRepositories.GetDepartments();
 
                 if (faculties == null || departments == null)
                 {
@@ -41,4 +41,5 @@ namespace SIMS.API.Controllers
                     "Error retrieving data from the database");
             }
         }
+    }
 }
