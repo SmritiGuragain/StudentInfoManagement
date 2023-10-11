@@ -43,5 +43,33 @@ namespace SIMS.API.Controllers
             }
 
         }
+        [HttpGet("{id:int}")]
+        public async Task<ActionResult<HodDto>> GetHod(int id)
+        {
+            try
+            {
+                var hod = await this.hodRepositories.GetHod(id);
+                
+                if (hod == null)
+                {
+                    return BadRequest();
+                }
+                else
+                {
+                    var department = await this.hodRepositories.GetDepartment(hod.Dept_Id);
+
+                    var hodDto = hod.ConvertToDto(department);
+                    return Ok(hodDto);
+                }
+
+            }
+            catch (Exception)
+            {
+
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "Error retrieving data from the database");
+            }
+
+        }
     }
 }

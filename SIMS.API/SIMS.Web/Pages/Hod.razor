@@ -16,6 +16,7 @@ else
                     <th scope="col">Phone</th>
                     <th scope="col">Email</th>
                     <th scope="col">Dept_Name</th>
+                   
                 </tr>
             </thead>
             @foreach(var items in Hods)
@@ -23,7 +24,9 @@ else
             <tbody>
                 <tr>
                     <th scope="row">@items.Id</th>
+                    <a href="/HodDetails/@items.Id">
                     <td>@items.Name</td>
+                    </a>
                     <td>@items.Phone</td>
                     <td>@items.Email</td>
                     <td>@items.Dept_Name</td>

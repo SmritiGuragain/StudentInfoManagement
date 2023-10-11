@@ -6,7 +6,7 @@ namespace SIMS.API.Repositories.Contracts
     {
         Task<IEnumerable<Department>> GetDepartments();
         Task<IEnumerable<HOD>> GetHods();
-        Task<IEnumerable<Department>> GetDepartment(int id);
-        Task<IEnumerable<HOD>> GetHod(int id);
+        Task<Department> GetDepartment(int id);
+        Task<HOD> GetHod(int id);
     }
 }

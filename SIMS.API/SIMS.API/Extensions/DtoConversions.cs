@@ -23,6 +23,21 @@ namespace SIMS.API.Extensions
                     }).ToList();
         }
 
+        public static HodDto ConvertToDto(this HOD hod,
+           Department department)
+        {
+            return new HodDto
+            {
+                Id = hod.Id,
+                Name = hod.Name,
+                ImageURL = hod.ImageURL,
+                Email = hod.Email,
+                Phone = hod.Phone,
+                Dept_Id = hod.Dept_Id,
+                Dept_Name = department.Name
+            };
+        }
+
         public static IEnumerable<CoordinatorDto> ConvertToDto(this IEnumerable<Coordinator> coordinators,
            IEnumerable<Faculty> faculties)
         {

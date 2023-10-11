@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QjF8xgqbev5hQ6PDQ7NLqU0x3IS+LAcZuyIJU+yNNZg=",
+  "Hash": "cpt1sSh/DwVdKC2p6hU2G1jPs/FHm3vStQDEBejXsvM=",
   "Source": "SIMS.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -7138,6 +7138,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon-192.png"
+    },
+    {
+      "Identity": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Web\\wwwroot\\Images\\Hods\\HOD1.png",
+      "SourceId": "SIMS.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Web\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/Hods/HOD1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Hods\\HOD1.png"
+    },
+    {
+      "Identity": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Web\\wwwroot\\Images\\Hods\\HOD2.png",
+      "SourceId": "SIMS.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Web\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/Hods/HOD2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Hods\\HOD2.png"
     },
     {
       "Identity": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Web\\wwwroot\\index.html",

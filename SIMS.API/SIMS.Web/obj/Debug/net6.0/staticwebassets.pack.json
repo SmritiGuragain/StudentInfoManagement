@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\SIMS.Web.styles.css"
     },
     {
+      "Id": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Web\\wwwroot\\Images\\Hods\\HOD1.png",
+      "PackagePath": "staticwebassets\\Images\\Hods\\HOD1.png"
+    },
+    {
+      "Id": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Web\\wwwroot\\Images\\Hods\\HOD2.png",
+      "PackagePath": "staticwebassets\\Images\\Hods\\HOD2.png"
+    },
+    {
       "Id": "D:\\Major Project\\StudentInfoManagement\\SIMS.API\\SIMS.Web\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },

@@ -13,9 +13,10 @@ namespace SIMS.API.Repositories
         {
             this.studentDbContext = studentDbContext;
         }
-        public Task<IEnumerable<Department>> GetDepartment(int id)
+        public async Task<Department> GetDepartment(int id)
         {
-            throw new NotImplementedException();
+            var category = await studentDbContext.Departments.SingleOrDefaultAsync(c => c.Id == id);
+            return category;
         }
 
         public async Task<IEnumerable<Department>> GetDepartments()
@@ -24,9 +25,10 @@ namespace SIMS.API.Repositories
             return departments;
         }
 
-        public Task<IEnumerable<HOD>> GetHod(int id)
+        public async Task<HOD> GetHod(int id)
         {
-            throw new NotImplementedException();
+            var hod = await studentDbContext.HODs.FindAsync(id);
+            return hod;
         }
 
         public async Task<IEnumerable<HOD>> GetHods()
