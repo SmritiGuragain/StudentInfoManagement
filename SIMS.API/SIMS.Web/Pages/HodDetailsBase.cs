@@ -4,14 +4,19 @@ using SIMS.Web.Services.Contracts;
 
 namespace SIMS.Web.Pages
 {
-    public class HodDetailsBase:ComponentBase
+    public class HodDetailsBase : ComponentBase
     {
         [Parameter]
         public int Id { get; set; }
+
         [Inject]
         public IHodService HodService { get; set; }
-        public HodDto? Hod { get; set; }
+
+
+        public HodDto Hod { get; set; }
+
         public string? ErrorMessage { get; set; }
+
         protected override async Task OnInitializedAsync()
         {
             try
@@ -20,7 +25,6 @@ namespace SIMS.Web.Pages
             }
             catch (Exception ex)
             {
-
                 ErrorMessage = ex.Message;
             }
         }

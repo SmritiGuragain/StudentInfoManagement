@@ -24,12 +24,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Major Project/StudentInfoManagement/SIMS.API/SIMS.Web/Pages/DisplaySpinner.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheVNwaW5uZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Major Project/StudentInfoManagement/SIMS.API/SIMS.Web/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Major Project/StudentInfoManagement/SIMS.API/SIMS.Web/Pages/Hod.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9kLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Major Project/StudentInfoManagement/SIMS.API/SIMS.Web/Pages/HodDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9kRGV0YWlscy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Major Project/StudentInfoManagement/SIMS.API/SIMS.Web/Shared/SurveyPrompt.razor]

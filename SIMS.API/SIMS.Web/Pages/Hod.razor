@@ -1,10 +1,12 @@
 ﻿@page "/"
 @inherits HodBase
 
+
 @if(Hods == null)
 {
     <h3>Loading Hods........</h3>
 }
+
 else
 {
     <h3 class="mb-5">List Of Hod</h3>
@@ -16,6 +18,7 @@ else
                     <th scope="col">Phone</th>
                     <th scope="col">Email</th>
                     <th scope="col">Dept_Name</th>
+                    <th scope="col">Action</th>
                    
                 </tr>
             </thead>
@@ -23,16 +26,17 @@ else
             {
             <tbody>
                 <tr>
-                    <th scope="row">@items.Id</th>
-                    <a href="/HodDetails/@items.Id">
+                    <td scope="row">@items.Id</td>
                     <td>@items.Name</td>
-                    </a>
                     <td>@items.Phone</td>
                     <td>@items.Email</td>
                     <td>@items.Dept_Name</td>
+                    <td><a href="/HodDetails/@items.Id">View</a></td>
                 </tr>
             </tbody>
             }
      </table>
+     <a href="/Counter">Spinner</a>
+     <a href="/Component/1">HodDetails</a>
     
 }
